@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_scanner">
+
+    <fragment
+        android:id="@+id/nav_scanner"
+        android:name="com.example.btcqrscanner.ui.scanner.ScannerFragment"
+        android:label="@string/menu_scanner"
+        tools:layout="@layout/fragment_scanner" />
+
+    <fragment
+        android:id="@+id/nav_keys"
+        android:name="com.example.btcqrscanner.ui.keys.KeysFragment"
+        android:label="@string/menu_keys"
+        tools:layout="@layout/fragment_keys" />
+
+    <fragment
+        android:id="@+id/nav_addresses"
+        android:name="com.example.btcqrscanner.ui.addresses.AddressesFragment"
+        android:label="@string/menu_addresses"
+        tools:layout="@layout/fragment_addresses" />
+
+    <fragment
+        android:id="@+id/nav_not_recognized"
+        android:name="com.example.btcqrscanner.ui.not_recognized.NotRecognizedFragment"
+        android:label="@string/not_recognized"
+        tools:layout="@layout/not_recognized_fragment" />
+</navigation>

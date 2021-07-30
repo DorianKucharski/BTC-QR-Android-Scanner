@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_scanner"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/menu_scanner" />
+        <item
+            android:id="@+id/nav_keys"
+            android:icon="@drawable/ic_baseline_drag_handle_24"
+            android:title="@string/menu_keys" />
+        <item
+            android:id="@+id/nav_addresses"
+            android:icon="@drawable/ic_baseline_drag_handle_24"
+            android:title="@string/menu_addresses" />
+
+        <item
+            android:id="@+id/nav_not_recognized"
+            android:icon="@drawable/ic_baseline_drag_handle_24"
+            android:title="@string/not_recognized" />
+
+
+
+
+
+    </group>
+</menu>
